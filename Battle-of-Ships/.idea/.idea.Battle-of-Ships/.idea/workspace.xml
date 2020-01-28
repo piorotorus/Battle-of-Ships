@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CannonBallStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" />
       </list>
@@ -81,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580131857741</updated>
-      <workItem from="1580131863951" duration="12698000" />
+      <workItem from="1580131863951" duration="13795000" />
+      <workItem from="1580216646220" duration="8936000" />
     </task>
     <servers />
   </component>
@@ -95,7 +98,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

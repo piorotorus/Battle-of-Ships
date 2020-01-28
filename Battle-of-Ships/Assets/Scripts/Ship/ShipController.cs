@@ -5,6 +5,7 @@ using UnityEngine;
 public class ShipController : MonoBehaviour
 {
     private Rigidbody rigidbody;
+   
     [SerializeField] private KeyCode moveForwardKey;
     [SerializeField] private KeyCode moveBackKey;
     [SerializeField] private KeyCode moveLeftKey;
@@ -34,7 +35,6 @@ public class ShipController : MonoBehaviour
             Move();
         }
 
-  
     }
 
     void Rotate()
