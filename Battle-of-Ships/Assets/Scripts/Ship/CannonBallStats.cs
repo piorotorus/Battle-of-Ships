@@ -7,8 +7,12 @@ public class CannonBallStats : MonoBehaviour
 {
     private const float DMG= 1;
     private const string SHIP_TAG = "Ship";
+    private const string SEA_TAG = "Sea";
+    private const string ENVIRONMENT_TAG = "Environment";
     private const float EXPLOSION_TIME = 1.8f;
+    private const float WATER_SPLASH_TIME = 1.0f;
     [SerializeField] private GameObject explosionParticle;
+    [SerializeField] private GameObject waterSplashParticle;
     private Rigidbody rigidbody;
     private SphereCollider sphereCollider;
     private MeshRenderer meshRenderer;
@@ -30,19 +34,40 @@ public class CannonBallStats : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
-    {
-       IsCollidingShip(other);
+    { 
+        IsCollidingShip(other);
+       IsCollidingSea(other);
+       IsCollidingEnvironment(other);
     }
 
+    void IsCollidingEnvironment(Collider other)
+    {
+        if (other.tag.Equals(ENVIRONMENT_TAG))
+        {
+            DisableCannonBall();
+            PlayParticle(explosionParticle);
+            StartCoroutine(DestroyCannonBall(EXPLOSION_TIME));
+        }
+    }
+    
     void IsCollidingShip(Collider other)
     {
         if (other.tag.Equals(SHIP_TAG))
         {
             other.GetComponent<ShipStats>().TakeDamage(DMG);
-            
             DisableCannonBall();
-            PlayParticle();
-            StartCoroutine(DestroyCannonBall());
+            PlayParticle(explosionParticle);
+            StartCoroutine(DestroyCannonBall(EXPLOSION_TIME));
+        }
+    }
+
+    void IsCollidingSea(Collider other)
+    {
+        if (other.tag.Equals(SEA_TAG))
+        {
+            DisableCannonBall();
+            PlayParticle(waterSplashParticle);
+            StartCoroutine(DestroyCannonBall(WATER_SPLASH_TIME));
         }
     }
 
@@ -53,14 +78,14 @@ public class CannonBallStats : MonoBehaviour
         sphereCollider.enabled = false;
     }
 
-    void PlayParticle()
+    void PlayParticle(GameObject particleGameObject)
     {
-        explosionParticle.SetActive(true);
+        particleGameObject.SetActive(true);
     }
 
-    IEnumerator DestroyCannonBall()
+    IEnumerator DestroyCannonBall(float destroyTime)
     {
-        yield return new WaitForSeconds(EXPLOSION_TIME);
+        yield return new WaitForSeconds(destroyTime);
         Destroy(gameObject);
     }
 }

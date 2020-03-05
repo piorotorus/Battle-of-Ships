@@ -27,10 +27,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CannonBallStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" />
       </list>
     </option>
   </component>
@@ -84,7 +85,11 @@
       <option name="presentableId" value="Default" />
       <updated>1580131857741</updated>
       <workItem from="1580131863951" duration="13795000" />
-      <workItem from="1580216646220" duration="8936000" />
+      <workItem from="1580216646220" duration="9657000" />
+      <workItem from="1580280098869" duration="296000" />
+      <workItem from="1580503697453" duration="3403000" />
+      <workItem from="1581331002306" duration="754000" />
+      <workItem from="1583231194589" duration="3676000" />
     </task>
     <servers />
   </component>
