@@ -489,6 +489,7 @@
           <e p="CameraScript.cs" t="Include" />
           <e p="Ship" t="Include">
             <e p="CannonBallStats.cs" t="Include" />
+            <e p="Ram.cs" t="Include" />
             <e p="ShipController.cs" t="Include" />
             <e p="ShipStats.cs" t="Include" />
             <e p="ShotCannonBall.cs" t="Include" />

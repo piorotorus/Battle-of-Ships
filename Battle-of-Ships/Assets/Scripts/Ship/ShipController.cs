@@ -13,6 +13,7 @@ public class ShipController : MonoBehaviour
     [SerializeField] private string horiozntalName;
     [SerializeField] private float moveSpeed;
     [SerializeField] private float rotationSpeed;
+    public bool canMove;
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
@@ -20,21 +21,23 @@ public class ShipController : MonoBehaviour
         {
             Debug.LogError("Can't find Rigidbody component",rigidbody);
         }
-
     }
 
 
     void FixedUpdate()
     {
-        if (Input.GetKey(moveLeftKey)||Input.GetKey(moveRightKey))
+        if (canMove)
         {
-            Rotate();
-        }
-        if (Input.GetKey(moveForwardKey)||Input.GetKey(moveBackKey))
-        {
-            Move();
-        }
+            if (Input.GetKey(moveLeftKey) || Input.GetKey(moveRightKey))
+            {
+                Rotate();
+            }
 
+            if (Input.GetKey(moveForwardKey) || Input.GetKey(moveBackKey))
+            {
+                Move();
+            }
+        }
     }
 
     void Rotate()

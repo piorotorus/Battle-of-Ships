@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6738a5d-ec00-4a00-acb2-5b87e68683b6" name="Default Changelist" comment="" />
+    <list default="true" id="b6738a5d-ec00-4a00-acb2-5b87e68683b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle-of-Ships/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle-of-Ships/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle-of-Ships/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle-of-Ships/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/NVJOB Water Shader SAF/Example Scenes/Prefabs/Other Models.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Environment/NVJOB Water Shader SAF/Example Scenes/Prefabs/Other Models.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/CannonBall/CannonBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/CannonBall/CannonBall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/Ram.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -27,11 +39,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CannonBallStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/Ram.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" />
       </list>
     </option>
   </component>
@@ -90,6 +103,9 @@
       <workItem from="1580503697453" duration="3403000" />
       <workItem from="1581331002306" duration="754000" />
       <workItem from="1583231194589" duration="3676000" />
+      <workItem from="1583412152609" duration="1374000" />
+      <workItem from="1583576032000" duration="6644000" />
+      <workItem from="1583582730415" duration="2324000" />
     </task>
     <servers />
   </component>
