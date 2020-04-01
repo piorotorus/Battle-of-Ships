@@ -4,13 +4,25 @@
     <list default="true" id="b6738a5d-ec00-4a00-acb2-5b87e68683b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle-of-Ships/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle-of-Ships/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle-of-Ships/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle-of-Ships/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Environment/NVJOB Water Shader SAF/Example Scenes/Prefabs/Other Models.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Environment/NVJOB Water Shader SAF/Example Scenes/Prefabs/Other Models.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/Big Island.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Environment/Big Island.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Environment/Island.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Environment/Island.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/CannonBall/CannonBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/CannonBall/CannonBall.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Particle/Particle assetstore/Main Camera Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Particle/Particle assetstore/Main Camera Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ship/Ram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ship/Ram.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_Grass2023054508611406.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_Grass2023054508611406.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_Sand2cd2d2d038030d602.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_Sand2cd2d2d038030d602.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_Sandcd2d2d038030d602.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_TerrainAutoUpgrade/layer_Sandcd2d2d038030d602.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,12 +34,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Particle/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/Ram.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameOverUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Leviathan-Awakning/Leviathan Awakning/Assets/Scripts/Audio/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ChangeShipButtons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/WaterMusic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/StartScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -39,12 +61,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CannonBallStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShipStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" />
         <option value="$PROJECT_DIR$/Assets/Move.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/Ram.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/ChangeShipButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/CannonBallStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/Music.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/Water.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/Ram.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameOverUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShotCannonBall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ship/ShipStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/StartScreen.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +134,11 @@
       <workItem from="1583231194589" duration="3676000" />
       <workItem from="1583412152609" duration="1374000" />
       <workItem from="1583576032000" duration="6644000" />
-      <workItem from="1583582730415" duration="2324000" />
+      <workItem from="1583582730415" duration="2789000" />
+      <workItem from="1584181995659" duration="9135000" />
+      <workItem from="1584971204880" duration="3946000" />
+      <workItem from="1585229922088" duration="322000" />
+      <workItem from="1585230278653" duration="12495000" />
     </task>
     <servers />
   </component>
@@ -126,5 +159,71 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1441" height="84" key="GridCell.Tab.0.bottom" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.0.center" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.0.left" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.0.right" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.1.bottom" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.1.center" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.1.left" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.1.right" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.2.bottom" timestamp="1584515272120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584515272120" />
+    <state width="1441" height="84" key="GridCell.Tab.2.center" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.2.left" timestamp="1584515272119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584515272119" />
+    <state width="1441" height="84" key="GridCell.Tab.2.right" timestamp="1584515272120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584515272120" />
+    <state width="1441" height="84" key="GridCell.Tab.3.bottom" timestamp="1584515272120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584515272120" />
+    <state width="1441" height="84" key="GridCell.Tab.3.center" timestamp="1584515272120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1584515272120" />
+    <state width="1441" height="84" key="GridCell.Tab.3.left" timestamp="1584515272120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1584515272120" />
+    <state width="1441" height="84" key="GridCell.Tab.3.right" timestamp="1584515272120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1441" height="84" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1584515272120" />
   </component>
 </project>

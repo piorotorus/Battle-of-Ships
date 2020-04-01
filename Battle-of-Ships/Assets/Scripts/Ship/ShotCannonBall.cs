@@ -11,7 +11,8 @@ public class ShotCannonBall : MonoBehaviour
     [SerializeField] private List<GameObject> cannonBallSpawners;
     [SerializeField] private List<GameObject> shootParticlesSpawners;
     [SerializeField] private GameObject shootParticle;
-    public bool canShot;
+    public bool canShot=true;
+    private const string SHOOT_AUDIO_NAME = "ShootSFX";
     private const float SPEED_MULTIPLE = 35;
     private const float TIME_AFTER_BALL_DESTROY = 3;
     private const float RELOAD_TIME = 5;
@@ -24,7 +25,13 @@ public class ShotCannonBall : MonoBehaviour
         {
             ActivateSpawners();
             StartCoroutine(StartReloading());
+            PlayShotSound();
         }
+    }
+
+    void PlayShotSound()
+    {
+        AudioManager.audioManagerInstance.PlaySound(SHOOT_AUDIO_NAME);
     }
 
     IEnumerator StartReloading()

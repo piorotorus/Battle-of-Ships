@@ -11,13 +11,19 @@ public class ShipStats : MonoBehaviour
    [SerializeField] private GameObject[] halfHealthParticle;
    [SerializeField] private GameObject[] quaterHealthParticle;
    [SerializeField] private ShipController shipController;
+   [SerializeField] private GameObject deathParticle;
+   [SerializeField] private GameObject gameOverMenu;
+   private AudioSource audioSource;
    private const float DIE_SPEED_MULTIPLIER = 0.35f;
+   private const string HIT_SOUND_NAME = "HitSFX";
+   private const float HIT_AUDIO_DELAY_TIME = 0.5f;
    private Quaternion shipDeadRotation;
    private float maxHealth;
     public float currentHealth = 100;
     private float reloadTimeLeft = 5;
     private float reloadTimeRight = 5;
     private bool isDead;
+    private bool canPlayHitSound=true;
 
     enum healthState
     {
@@ -30,14 +36,21 @@ public class ShipStats : MonoBehaviour
 
     private void Awake()
     {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            Debug.LogError("Can't find audiosource component",audioSource);
+        }
         if (shipController == null)
         {
-            Debug.LogError("ShipController script don't added",shipController);
+            Debug.LogError("ShipController script don't added", shipController);
         }
+
         if (shotCannonBall == null)
         {
             Debug.LogError("ShotCannonBall scripts don't added");
         }
+
         if (halfHealthParticle == null)
         {
             Debug.LogError("HalfHealthParticle don't added");
@@ -47,21 +60,17 @@ public class ShipStats : MonoBehaviour
         {
             Debug.LogError("QuaterHealthParticle don't added");
         }
-    }
 
-    /*
-    private void Update()
-    {
-        
-            transform.rotation=Quaternion.Lerp(transform.rotation, shipDeadRotation, Time.deltaTime);
-        
+        if (deathParticle == null)
+        {
+            Debug.LogError("DeathParticle don't added",deathParticle);
+        }
 
-        if (transform.rotation.z <= 0.4f)
-            Debug.Log(transform.rotation.z );
+        if (gameOverMenu == null)
+        {
+            Debug.LogError("End screen don't added",gameOverMenu);
+        }
     }
-    */
-    
- 
 
     void Start()
     {  shipDeadRotation = transform.rotation;
@@ -73,8 +82,30 @@ public class ShipStats : MonoBehaviour
     {
         currentHealth -= dmg;
             CheckHealth();
+            CheckCanPlayHitSound();
     }
 
+    void CheckCanPlayHitSound()
+    {
+        if (canPlayHitSound)
+        {
+           PlayHitSound();
+           StartCoroutine(HitSoundDelay());
+        }
+    }
+
+    IEnumerator HitSoundDelay()
+    {
+        canPlayHitSound = false;
+        yield return new WaitForSeconds(HIT_AUDIO_DELAY_TIME);
+        canPlayHitSound = true;
+    }
+
+    void PlayHitSound()
+    {
+        AudioManager.audioManagerInstance.PlaySound(HIT_SOUND_NAME,audioSource);
+    }
+    
      void CheckHealth()
     {
         if (currentHealth<=maxHealth/2&&shipHealthState==healthState.healthAboveHalf)
@@ -106,7 +137,7 @@ public class ShipStats : MonoBehaviour
     {
         shipDeadRotation = transform.rotation;
         shipDeadRotation*= Quaternion.Euler(0, 0, 90);
-        TurnOffShooting();
+        ChangeCanShooting();
         shipController.canMove = false;
         StartCoroutine(RotateShipToDiePosition());
     }
@@ -117,7 +148,6 @@ public class ShipStats : MonoBehaviour
         {
             transform.rotation=Quaternion.Lerp(transform.rotation, shipDeadRotation, Time.deltaTime*DIE_SPEED_MULTIPLIER);
             yield return null;
-
         }
         DestroyShip();
         yield break;
@@ -125,14 +155,17 @@ public class ShipStats : MonoBehaviour
 
     void DestroyShip()
     {
+        GameObject deathParticleInstance = Instantiate(deathParticle,deathParticle.transform.position, deathParticle.transform.rotation);
+        deathParticleInstance.SetActive(true);
+        GameOverUI.gameEnded = true;
         Destroy(gameObject);
     }
 
-    void TurnOffShooting()
+   public void ChangeCanShooting()
     {
         foreach (var script in shotCannonBall)
         {
-            script.canShot = false;
+            script.canShot = !script.canShot;
         } 
     }
 }

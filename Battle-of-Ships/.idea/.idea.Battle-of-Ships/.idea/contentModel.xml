@@ -334,6 +334,17 @@
             </e>
           </e>
         </e>
+        <e p="Objects" t="Include">
+          <e p="Coconut Palm Tree Pack" t="Include">
+            <e p="Readme.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TFP_treecreator" t="Include">
+                <e p="TFPTreeCreatorBarkOptimized.shader" t="Include" />
+                <e p="TFPTreeCreatorLeavesOptimized.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="Particle" t="Include">
           <e p="ErbGameArt" t="Include">
             <e p="Procedural fire" t="Include">
@@ -486,6 +497,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Audio" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="Music.cs" t="Include" />
+            <e p="Sound.cs" t="Include" />
+            <e p="WaterMusic.cs" t="Include" />
+          </e>
           <e p="CameraScript.cs" t="Include" />
           <e p="Ship" t="Include">
             <e p="CannonBallStats.cs" t="Include" />
@@ -493,6 +510,11 @@
             <e p="ShipController.cs" t="Include" />
             <e p="ShipStats.cs" t="Include" />
             <e p="ShotCannonBall.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="ChangeShipButtons.cs" t="Include" />
+            <e p="GameOverUI.cs" t="Include" />
+            <e p="StartScreen.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9c7a7de79c52504798de4042341ffb3, type: 3}
+  m_Name: ShootSFX
+  m_EditorClassIdentifier: 
+  name: ShootSFX
+  clip: {fileID: 8300000, guid: 65bb15a7e0a339a4eae0e8bcf1f23ab3, type: 3}
+  volume: 0.9
+  loop: 0
+  mixerGroup: {fileID: -4184573169865703248, guid: 6a109832e76f2db44801d4e332e5a0d2,
+    type: 2}
+  playInAudioManager: 1
+  source: {fileID: 0}

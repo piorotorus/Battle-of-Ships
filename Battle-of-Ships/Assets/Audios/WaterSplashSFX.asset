@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9c7a7de79c52504798de4042341ffb3, type: 3}
+  m_Name: WaterSplashSFX
+  m_EditorClassIdentifier: 
+  name: WaterSplashSFX
+  clip: {fileID: 8300000, guid: b8c40d154d7766d4783ec73b4b8b2c42, type: 3}
+  volume: 0.2
+  loop: 0
+  mixerGroup: {fileID: -5396363366853910164, guid: 6a109832e76f2db44801d4e332e5a0d2,
+    type: 2}
+  playInAudioManager: 0
+  source: {fileID: 0}

@@ -7,6 +7,7 @@ public class Ram : MonoBehaviour
 {
     [SerializeField] private Rigidbody rb;
     private const string SHIP_TAG = "Ship";
+    private const string RAM_SOUND_NAME = "RamSFX";
 
     private void Awake()
     {
@@ -34,6 +35,7 @@ public class Ram : MonoBehaviour
     {
         ShipStats enemyShipStats = enemyShip.gameObject.GetComponent<ShipStats>();
         enemyShipStats.TakeDamage(dmg);
+        AudioManager.audioManagerInstance.PlaySound(RAM_SOUND_NAME);
     }
     
     int CalculateDmg()
